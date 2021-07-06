@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------    navbar     -------*/
+
+
+#navbar {
+    display: flex;
+    border-bottom: 2px solid #FD5332;
+}
+
+.logo {
+    width: 68%;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    margin: 80px;
+    font-weight: 700;
+}
+
+a span {
+    color: #FC8F49;
+}
+
+.nav-button {
+    width: 32%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+li a:hover {
+    background-color: #FC8F49;
+    color: white;
+}
+
+
+/*-------    header     -------*/
+
+
+#header {
+    height: 100vh;
+    margin-bottom: 70px;
+}
+
+.header-col {
+    display: flex;
+}
+
+.header-left-col {
+    width: 50%;
+    margin: 100px;
+}
+
+.header-left-col h1 {
+    font-size: 70px;
+}
+
+h1 span {
+    color: #FC8F49;
+}
+
+.header-left-col p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px;
+    background: linear-gradient(60deg, #FC8F49, #FD5332);
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+
+}
+
+.header-right-col {
+    width: 50%;
+}
+
+.header-right-col img {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*-------    about     -------*/
+
+
+#about {
+    height: 100vh;
+    background-image: url("image/frame.png");
+    margin-bottom: 70px;
+}
+
+.about-col {
+    display: flex;
+}
+
+.about-left-col {
+    width: 50%;
+}
+
+.about-left-col img {
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 82px;
+}
+
+.about-right-col {
+    width: 50%;
+}
+
+.about-right-col h1 {
+    margin: 0 120px;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.about-right-col p {
+    margin: 0 120px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.about-right-col .button {
+    margin: 0 120px;
+}
+
+
+/*-------    Recipies     -------*/
+
+
+
+
+#recipie {
+    height: 100vh;
+    margin-bottom: 120px;
+}
+
+.recipie-heding {
+    margin: 30px 400px;
+}
+
+.recipie-heding h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.recipie-heding p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.recipie-col {
+    display: flex;
+    margin: 0 10%;
+}
+
+.recipie-left-col {
+    width: 30%;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    box-shadow: 10px 10px 10px #d4d3d3;
+}
+
+.recipie-left-col img {
+    width: 90%;
+    margin: 15px;
+}
+
+.recipie-left-col h1 {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.recipie-left-col p {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.recipie-center-col {
+    margin: 0 6%;
+}
+
+
+/*-------    Follow     -------*/
+
+
+#follow {
+    height: 50vh;
+}
+
+.follow-col {
+    display: flex;
+    margin: 0 10%;
+    border-radius: 30px;
+    border: 3px solid whitesmoke;
+    box-shadow: 10px 10px 10px #d4d3d3;
+}
+
+.follow-left-col {
+    margin: 40px 80px;
+}
+
+.follow-left-col h1 {
+    margin: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.follow-left-col p {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/*-------    Footer     -------*/
+
+
+footer {
+    background-color: #FD5332;
+
+}
+
+footer h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+
+}
+
+footer p {
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 120px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer span {
+    color: white;
+}
